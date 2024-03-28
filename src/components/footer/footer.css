@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wdth,wght@0,112.5,800;1,112.5,800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+footer {
+    box-sizing: border-box;
+}
+
+a {
+    font-family: "Kanit", sans-serif;
+}
+
+.whapper_footer .black-social-media {
+    background-color: #000;
+}
+
+.whapper_footer .black-social-media p {
+    display: block;
+    margin-top: -5px;
+    text-align: center;
+    font-size: 42px;
+    font-family: "Georama", sans-serif;
+    font-optical-sizing: auto;
+    color: blue;
+}
+
+.whapper_footer .social-media {
+    border: 3px blue solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whapper_footer .social-media img {
+    cursor: pointer;
+    height: 260px;
+    width: 260px;
+    transition: .5;
+}
+
+.whapper_footer .social-media img:hover {
+    opacity: .7;
+}
+.whapper_footer .social-media a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    opacity: .9;
+
+}
+
+/* Blue Footer */
+
+.blue-footer {
+    background-color: #042afe;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 280px;
+}
+
+.blue-footer .info-links ul,
+.blue-footer .info-links-2 ul,
+.blue-footer .info-links-3 ul {
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-footer .info-links a,
+.blue-footer .info-links-2 a,
+.blue-footer .info-links-3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.blue-footer .links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}

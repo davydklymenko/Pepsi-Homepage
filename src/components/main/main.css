@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap');
+
+main {
+    font-family: "Kanit", sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper_main {
+    position: relative;
+    height: 100vh; 
+    width: 100%;
+    overflow: hidden;
+}
+
+.whapper_main video {
+    position: relative;
+    height: 100%; 
+    width: 100%;
+}
+
+.presentation {
+    position: relative;
+    height: 100%;
+}
+
+.presentation_bg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    user-select: none; /* Заборонити вибір елемента мишею */
+    -webkit-user-drag: none; /* Заборонити переміщення елемента вебкітом */
+    -webkit-touch-callout: none;
+}
+
+.shop_now {
+    position: absolute;
+    top: 90%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+}
+
+.selector {
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 7px;
+    padding-left: 85px;
+    padding-right: 85px;
+    font-size: 50px; 
+    background-color: #FFF;
+    color: black;
+    border: 2px solid transparent;
+}
+
+.selector:hover {
+    background-color: #0025ff;
+    color: #FFF;
+}
+
+/* Preview Videos */
+
+.whapper_cherry .bg {
+    position: relative;
+    height: 98vh;
+    width: 100%;
+    object-fit: cover;
+    user-select: none; 
+    -webkit-user-drag: none; 
+    -webkit-touch-callout: none;
+}
+
+.getWildText {
+    display: block;
+    height: 140px;
+    width: 978px;
+    position: absolute;
+    top: 15%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+}
+
+.whapper_previews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 58%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+}
+
+.whapper_previews img {
+    cursor: pointer;
+    display: block;
+    margin: 0 40px;
+    height: 490px;
+    width: 830px;
+    transition: .5s;
+}
+
+.whapper_previews img:hover {
+    border-radius: 15px;
+    box-shadow: 20px 20px 75px #0025ff;
+}
+
+.whapper_previews a {
+    position: relative;
+    margin-bottom: 30%;
+}
+

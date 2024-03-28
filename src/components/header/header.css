@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap');
+
+header {
+    background-color: #0025ff;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.whapper {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5px;
+    height: 90px;
+    font-family: "Kanit", sans-serif;
+}
+
+.whapper img {
+    cursor: pointer;
+    margin-right: 30px;
+    height: 90px;
+    width: 160px;
+}
+
+.list {
+    padding: 15px;
+}
+
+.list .li {
+    color: #FFF;
+    text-decoration: none;
+    display: inline;
+    margin: 0 25px;
+    cursor: pointer;
+}
+
+.buy_more {
+    text-decoration: none;
+    cursor: pointer;
+    margin: 27px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px; /* Adjust font size */
+    background-color: transparent;
+    border: 1px #FFF solid;
+    border-radius: 50px;
+    font-family: "Kanit", sans-serif;
+    color: #FFF;
+    transition: .3s;
+}
+
+.buy_more:hover {
+    background-color: #FFF;
+    color: #0025ff;
+}
