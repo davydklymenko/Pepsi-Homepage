@@ -18,40 +18,51 @@ function Footer() {
 
                             <div className="social-media">
                                 <div className="inst">
-                                   <a href="https://www.instagram.com/pepsi" className="fab fa-instagram fa-2x">
-                                     <img href="https://www.instagram.com/pepsi" src={Inst} alt="s-m" />
+                                  <a href="https://www.instagram.com/pepsi" style={{position: 'relative', display: 'inline-block'}}>
+                                   <img src={Inst} alt="s-m" style={{border: '3px blue solid', cursor: 'pointer', 'max-height': '310px', 'max-width': '310px', transition: '.3s'}} />
+                                     <i className="fa-brands fa-instagram fa-2x" style={{opacity: '.8', color: '#fff', position: 'absolute', bottom: '15px', left: '15px'}}></i>
                                    </a>
                                 </div>
 
                                 <div className="x">
-                                    <img src={X} alt="s-m" />
-                                    <a href="https://twitter.com/pepsi" className="fab fa-x-twitter fa-2x"></a>
+                                    <a href="https://twitter.com/pepsi"  style={{position: 'relative', display: 'inline-block'}}>
+                                     <img src={X} alt="s-m" style={{border: '3px blue solid', cursor: 'pointer', 'max-height': '310px', 'max-width': '310px', transition: '.3s'}} />
+                                      <i className="fa-brands fa-x-twitter fa-2x" style={{opacity: '.8', color: '#fff', position: 'absolute', bottom: '15px', left: '15px'}}></i>
+                                    </a>
                                 </div>
 
                                 <div className="fb">
-                                    <img src={FB} alt="s-m" />
-                                    <a href="https://www.facebook.com/PepsiUS" className="fab fa-facebook fa-2x"></a>
+                                    <a href="https://www.facebook.com/PepsiUS" style={{position: 'relative', display: 'inline-block'}}>
+                                      <img src={FB} alt="s-m" style={{border: '3px blue solid', cursor: 'pointer', 'max-height': '310px', 'max-width': '310px', transition: '.3s'}} />
+                                      <i className="fa-brands fa-facebook fa-2x" style={{opacity: '.8', color: '#fff', position: 'absolute', bottom: '15px', left: '15px'}}></i>
+                                    </a>
                                 </div>
 
                                 <div className="yt">
-                                    <img src={YT} alt="s-m" />
-                                    <a href="https://www.youtube.com/user/Pepsi" className="fab fa-youtube fa-2x"></a>
+                                    <a href="https://www.youtube.com/user/Pepsi" style={{position: 'relative', display: 'inline-block'}}>
+                                      <img src={YT} alt="s-m" style={{border: '3px blue solid', cursor: 'pointer', 'max-height': '310px', 'max-width': '310px', transition: '.3s'}} />
+                                      <i className="fa-brands fa-youtube fa-2x" style={{opacity: '.8', color: '#fff', position: 'absolute', bottom: '15px', left: '15px'}}></i>
+                                    </a>
                                 </div>
 
                                 <div className="tt">
-                                    <img src={TT} alt="s-m" />
-                                    <a href="https://www.tiktok.com/@pepsi" className="fab fa-tiktok fa-2x"></a>
+                                    <a href="https://www.tiktok.com/@pepsi" style={{position: 'relative', display: 'inline-block'}}>
+                                      <img src={TT} alt="s-m" style={{border: '3px blue solid', cursor: 'pointer', 'max-height': '310px', 'max-width': '310px', transition: '.3s'}} />
+                                      <i className="fa-brands fa-tiktok fa-2x" style={{opacity: '.8', color: '#fff', position: 'absolute', bottom: '15px', left: '15px'}}></i>
+                                    </a>
                                 </div>
 
                                 <div className="theards">
-                                    <img src={Threads} alt="s-m" />
-                                    <a href="https://www.threads.net/@pepsi" className="fab fa-threads fa-2x"></a>
+                                    <a href="https://www.threads.net/@pepsi" style={{position: 'relative', display: 'inline-block'}}>
+                                     <img src={Threads} alt="s-m" style={{border: '3px blue solid', cursor: 'pointer', 'max-height': '310px', 'max-width': '310px', transition: '.3s'}} />
+                                     <i className="fa-brands fa-threads fa-2x" style={{opacity: '.8', color: '#fff', position: 'absolute', bottom: '15px', left: '15px'}}></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
 
                         <div className="blue-footer">
-                            <img style={{height: "130px", width: "230px"}} src={PepsiLogo} alt="pepsi_logo" />
+                            <img style={{cursor: 'pointer', 'max-height': "130px", 'max-width': "230px"}} src={PepsiLogo} alt="pepsi_logo" />
 
                             <div className="info-links">
                                  <ul>
@@ -78,12 +89,12 @@ function Footer() {
                             </div>
 
                             <div className="links">
-                                 <a href="https://www.instagram.com/pepsi" className="fab fa-instagram fa-2x"></a>
-                                 <a href="https://twitter.com/pepsi" className="fab fa-x-twitter fa-2x"></a>
-                                 <a href="https://www.facebook.com/PepsiUS" className="fab fa-facebook fa-2x"></a>
-                                 <a href="https://www.youtube.com/user/Pepsi" className="fab fa-youtube fa-2x"></a>
-                                 <a href="https://www.tiktok.com/@pepsi" className="fab fa-tiktok fa-2x"></a>
-                                 <a href="https://www.threads.net/@pepsi" className="fab fa-threads fa-2x"></a>
+                                 <a href="https://www.instagram.com/pepsi" className="fab fa-instagram fa-2x"> </a>
+                                 <a href="https://twitter.com/pepsi" className="fab fa-x-twitter fa-2x"> </a>
+                                 <a href="https://www.facebook.com/PepsiUS" className="fab fa-facebook fa-2x"> </a>
+                                 <a href="https://www.youtube.com/user/Pepsi" className="fab fa-youtube fa-2x"> </a>
+                                 <a href="https://www.tiktok.com/@pepsi" className="fab fa-tiktok fa-2x"> </a>
+                                 <a href="https://www.threads.net/@pepsi" className="fab fa-threads fa-2x"> </a>
                             </div>
                         </div>
                     </div>

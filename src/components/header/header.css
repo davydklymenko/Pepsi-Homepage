@@ -15,7 +15,6 @@ header {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 5px;
     height: 90px;
     font-family: "Kanit", sans-serif;
 }
@@ -31,7 +30,8 @@ header {
     padding: 15px;
 }
 
-.list .li {
+.list .inline-style {
+    display: block;
     color: #FFF;
     text-decoration: none;
     display: inline;
@@ -40,6 +40,7 @@ header {
 }
 
 .buy_more {
+    display: block;
     text-decoration: none;
     cursor: pointer;
     margin: 27px;
@@ -57,4 +58,25 @@ header {
 .buy_more:hover {
     background-color: #FFF;
     color: #0025ff;
+}
+
+/* Mobile Devices */
+
+
+@media (max-width: 1024px) {
+    .whapper {
+        box-sizing: border-box;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 90px;
+        font-family: "Kanit", sans-serif;
+    }
+
+    .whapper img {
+        padding: 6px;
+        height: 80px;
+        width: 145px;
+    }
+
 }

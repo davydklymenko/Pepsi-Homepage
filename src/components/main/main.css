@@ -108,7 +108,15 @@ main {
 }
 
 .whapper_previews a {
-    position: relative;
+    position: absolute;
     margin-bottom: 30%;
 }
 
+@media (max-width: 1024px) {
+    .wrapper_main {
+        position: relative;
+        height: 100vh; 
+        width: 100%;
+        overflow: hidden;
+    }
+}

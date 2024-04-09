@@ -39,14 +39,14 @@ function Main() {
                                     </div>
 
                                     <div className="preview">
-                                        <img className="video_preview" src={NurseryRhymez} alt="Nursery_Rhymez" />
+                                        <img controls="" className="video_preview" src={NurseryRhymez} loop="true" kind="captions" alt="Nursery_Rhymez" />
                                         <a href="https://youtu.be/fLkpkst5mk8" className="selector" >NURSERY RHYMEZ</a>
                                     </div>
                             </div>
                         </div>
                         </section>
 
-                  <video controls="" controlslist="nodownload noremoteplayback" class="other__video" kind="captions" type="video/mp4" autoplay="true" loop="true" playsinline="true" muted="true">
+                  <video controls="" controlslist="nodownload noremoteplayback" className="other__video" kind="captions" type="video/mp4" autoplay="true" loop="true" playsinline="true" muted="true">
                     <source src={PepsiVideo} type="video/mp4"></source>
                   </video>
                </div>
