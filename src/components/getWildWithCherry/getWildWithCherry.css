@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap');
+
+/* Preview Videos */
+
+.whapper_cherry .bg {
+    position: relative;
+    height: 98vh;
+    width: 100%;
+    object-fit: cover;
+    user-select: none; 
+    -webkit-user-drag: none; 
+    -webkit-touch-callout: none;
+}
+
+.getWildText {
+    display: block;
+    height: 140px;
+    width: 978px;
+    position: absolute;
+    top: 15%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+}
+
+.whapper_previews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 58%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+}
+
+.whapper_previews img {
+    cursor: pointer;
+    display: block;
+    margin: 0 40px;
+    height: 490px;
+    width: 830px;
+    transition: .5s;
+}
+
+.whapper_previews img:hover {
+    border-radius: 15px;
+    box-shadow: 20px 20px 75px #0025ff;
+}
+
+.whapper_previews a {
+    position: absolute;
+    margin-bottom: 30%;
+}

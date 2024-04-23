@@ -1,13 +1,32 @@
-import Header from '../components/header/header';
-import Main from '../components/main/main';
-import Footer from '../components/footer/footer';
+import React from 'react';
+
+import AppHeader from '../components/appHeader/appHeader';
+
+import HeroVideoPepsi from '../components/heroVideoPepsi/heroVideoPepsi';
+import PresCans from '../components/presentationCans/presentationCans';
+import GetWildWithCherry from '../components/getWildWithCherry/getWildWithCherry';
+import FooterVideo from '../components/footerVideoPepsi/footerVideoPepsi';
+
+import AppFooter from '../components/appFooter/appFooter';
+
+import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <Main/>
-        <Footer/>
+        <AppHeader/>
+        <main>
+            <div className="whapper_main">
+                <HeroVideoPepsi/>
+                <PresCans/>
+                <GetWildWithCherry/>
+                <FooterVideo/>
+            </div>
+        </main>
+
+        <AppFooter/>
     </div>
   );
 }

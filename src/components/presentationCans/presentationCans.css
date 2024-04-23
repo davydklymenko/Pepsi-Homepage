@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap');
+
+.wrapper_main {
+    position: relative;
+    height: 100vh; 
+    width: 100%;
+    overflow: hidden;
+}
+
+.presentation {
+    position: relative;
+    height: 100%;
+}
+
+.presentation_bg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    user-select: none; /* Заборонити вибір елемента мишею */
+    -webkit-user-drag: none; /* Заборонити переміщення елемента вебкітом */
+    -webkit-touch-callout: none;
+}
+
+.shop_now {
+    position: absolute;
+    top: 90%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+}
+
+.selector {
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 7px;
+    padding-left: 85px;
+    padding-right: 85px;
+    font-size: 50px; 
+    background-color: #FFF;
+    color: black;
+    border: 2px solid transparent;
+}
+
+.selector:hover {
+    background-color: #0025ff;
+    color: #FFF;
+}    
