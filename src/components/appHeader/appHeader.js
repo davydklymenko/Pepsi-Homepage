@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import PepsiLogo from '../../recourses/img/Pepsi-logo.png'
 import './appHeader.css';
 
@@ -7,6 +8,11 @@ function AppHeader() {
     <>
        <header>
             <div className="whapper">
+                <Helmet>
+                    <meta name="theme-color" content="#000" />
+                    <meta name="description" content="home_page_pepsi" />
+                    <title>Pepsi | Cherry taste</title>
+                </Helmet>
 
              <img src={PepsiLogo} alt="pepsi_logo" />
 
